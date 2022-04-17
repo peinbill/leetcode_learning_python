@@ -56,3 +56,18 @@ class Solution:
 
         return rtn_list
 
+    def preorderTraversal3(self, root: TreeNode) -> List[int]:
+        """ 分治法
+
+        :param root:
+        :return:
+        """
+
+        if root is None:
+            return []
+
+        left_result = self.preorderTraversal(root.left)
+        right_result = self.preorderTraversal(root.right)
+
+        return [root.val] + left_result + right_result
+
