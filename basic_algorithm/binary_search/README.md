@@ -94,3 +94,5 @@ Solution35: 二分查找模板二
 Solution278: 二分查找模板三
 
 Solution153: 部分有序，二分查找模板3
+
+Solution154: 非模板1,2,3 https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/solution/154-find-minimum-in-rotated-sorted-array-ii-by-jyd/
