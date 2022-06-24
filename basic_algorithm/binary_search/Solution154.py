@@ -12,6 +12,24 @@ class Solution:
             else:
                 high -= 1
         return nums[low]
+    def findMin(self, nums: List[int]) -> int:
+        left,right = 0,len(nums)-1
+        if nums[left] < nums[right]:
+            return nums[left]
+
+        while left + 1 < right:
+            mid = (left+right)//2
+
+            if nums[mid] > nums[left]:
+                left = mid+1
+            else:
+                left += 1
+                right = mid
+
+        if nums[left] < nums[right]:
+            return nums[left]
+        else:
+            return nums[right]
 
 if __name__ == "__main__":
     solution = Solution()
