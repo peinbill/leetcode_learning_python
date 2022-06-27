@@ -100,3 +100,7 @@ Solution154: 非模板1,2,3 https://leetcode.cn/problems/find-minimum-in-rotated
 Solution33: 153的基础上再进一步
 
 Solution81: Solution33的改进，多加一个条件
+
+Solution70: 难点在于初始条件的构造
+
+
