@@ -35,7 +35,7 @@ class Solution:
         return rtn_list
 
     def preorderTraversal2(self, root: Optional[TreeNode]) -> List[int]:
-        """ 非递归做法本质可以使用图
+        """ 非递归做法本质可以使用栈
 
         :param root:
         :return:
@@ -66,8 +66,8 @@ class Solution:
         if root is None:
             return []
 
-        left_result = self.preorderTraversal(root.left)
-        right_result = self.preorderTraversal(root.right)
+        left_result = self.preorderTraversal3(root.left)
+        right_result = self.preorderTraversal3(root.right)
 
         return [root.val] + left_result + right_result
 

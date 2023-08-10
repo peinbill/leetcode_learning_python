@@ -7,10 +7,14 @@
 @time: 2022/4/18 20:57
 @Describe:
 """
+
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+
+
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         """ 遍历，考察链表的基本操作

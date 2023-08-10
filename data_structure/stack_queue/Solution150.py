@@ -11,31 +11,30 @@ from typing import List
 
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
+        stack = []
         if len(tokens)==0:
             return 0
 
-        symbols = ["+","-","*","/"]
+        for token in tokens:
+            if token == "+":
+                num1 = int(stack.pop())
+                num2 = int(stack.pop())
+                token = num1+num2
+            elif token == "-":
+                num1 = int(stack.pop())
+                num2 = int(stack.pop())
+                token = num2-num1
+            elif token == "*":
+                num1 = int(stack.pop())
+                num2 = int(stack.pop())
+                token = num2*num1
+            elif token == "/":
+                num1 = int(stack.pop())
+                num2 = int(stack.pop())
+                token = num2/num1
+            stack.append(token)
 
-        number_stack = list()
-
-        for i in tokens:
-            if i in symbols:
-                number1 = number_stack.pop()
-                number2 = number_stack.pop()
-                if i == "+":
-                    number = number1+number2
-                if i == "-":
-                    number = number2-number1
-                if i == "*":
-                    number = number1*number2
-                if i == '/':
-                    number = int(number2/number1)
-                number_stack.append(i)
-            else:
-                number_stack.append(int(i))
-
-
-        return number_stack.pop()
+        return int(stack[0])
 
 if __name__ == "__main__":
     solution = Solution()

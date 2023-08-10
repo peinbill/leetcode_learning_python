@@ -1,5 +1,9 @@
 from typing import List
 
+
+"""
+最最基础的模板
+"""
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         left = 0

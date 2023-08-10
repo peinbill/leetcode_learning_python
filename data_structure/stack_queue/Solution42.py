@@ -13,9 +13,8 @@ class Solution:
     def trap(self, height: List[int]) -> int:
         ans = 0
         stack = list()
-        n = len(height)
 
-        for i, h in enumerate(height):
+        for i, h in enumerate():
             while stack and h > height[stack[-1]]:
                 top = stack.pop()
                 if not stack:

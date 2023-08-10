@@ -17,27 +17,27 @@ class ListNode:
         self.next = None
 
 class Solution:
-
-    def detectCycle(self, head: ListNode) -> ListNode:
-        """
-        需要画图 a,b,c 进行计算
-        :param head:
-        :return:
-        """
-        slow = fast = head
-
-        while fast is not None and fast.next is not None:
-            slow = slow.next
-            fast = fast.next.next
-
-            if slow == fast:
-                slow = head
-                while fast != slow:
-                    fast = fast.next
-                    slow = slow.next
-                return slow
-
-        return None
+    #
+    # def detectCycle(self, head: ListNode) -> ListNode:
+    #     """
+    #     需要画图 a,b,c 进行计算
+    #     :param head:
+    #     :return:
+    #     """
+    #     slow = fast = head
+    #
+    #     while fast is not None and fast.next is not None:
+    #         slow = slow.next
+    #         fast = fast.next.next
+    #
+    #         if slow == fast:
+    #             slow = head
+    #             while fast != slow:
+    #                 fast = fast.next
+    #                 slow = slow.next
+    #             return slow
+    #
+    #     return None
 
 
     def detectCycle2(self, head: Optional[ListNode]) -> bool:
@@ -53,16 +53,16 @@ class Solution:
 
         return False
 
-    def hasCycle2(self, head: Optional[ListNode]) -> bool:
-        if head is None:
-            return False
-        current = head
-        node_set = set()
-        while current is not None:
-            if current in node_set:
-                return True
-            else:
-                node_set.add(current)
-            current = current.next
-
-        return False
+    # def hasCycle2(self, head: Optional[ListNode]) -> bool:
+    #     if head is None:
+    #         return False
+    #     current = head
+    #     node_set = set()
+    #     while current is not None:
+    #         if current in node_set:
+    #             return True
+    #         else:
+    #             node_set.add(current)
+    #         current = current.next
+    #
+    #     return False

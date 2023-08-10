@@ -60,7 +60,7 @@ def binarySearch(nums, target):
 ```
 
 模板3: 用于搜索需要访问当前索引及其在数组中的直接左右邻居索引的元素或条件。
-
+理论上该模板是最万能的
 ```python
 def binarySearch(nums, target):
     """
@@ -87,21 +87,31 @@ def binarySearch(nums, target):
     if nums[right] == target: return right
     return -1
 ```
+
+实际过程中，掌握好1，3两个模板即可
+
 Solution704:二分查找模板一
 
-Solution35: 二分查找模板二
+Solution35: 二分查找模板二，也可以使用模板3后再进行判断（理论上模板3是万能的）
 
 Solution278: 二分查找模板三
 
 Solution153: 部分有序，二分查找模板3
 
 Solution154: 非模板1,2,3 https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/solution/154-find-minimum-in-rotated-sorted-array-ii-by-jyd/
+可以使用模板3，核心在于需要跟右边界进行比较
 
-Solution33: 153的基础上再进一步
+只要保证开区间右端点在最小值或者最小值右侧就行，因为我们就是根据这一点来比较的。
 
-Solution81: Solution33的改进，多加一个条件
+如果mid选择和右边界比较，当 mid 和 end相等时，mid向左看，一定是先局部下降的，所以可以end-- 找最小值
+如果mid选择和左边界比较，当 mid 和 start相等时，mid向右看，一定是先局部上升的，所以只适合通过start++找最大值
 
-Solution70: 难点在于初始条件的构造
+
+Solution33: 153的基础上再进一步(没有153做前提很难)
+
+Solution81: Solution704的改进，多加一个条件。（不要完全死记硬背东西）
+
+Solution74: 难点在于初始条件的构造，其实就是将矩阵转成数组
 
 
 

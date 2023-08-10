@@ -17,6 +17,12 @@ class TreeNode:
 
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
+        """ 递归
+        需要结合104题目进行
+        递归就是费机器，但是省人
+        @param root:
+        @return:
+        """
         if root is None:
             return True
 
@@ -31,6 +37,7 @@ class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
         """ 自低向上的递归
 
+        只需遍历一次即可
         :param root:
         :return:
         """

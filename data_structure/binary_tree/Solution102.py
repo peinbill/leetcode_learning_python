@@ -16,6 +16,7 @@ class TreeNode:
 from collections import deque
 from typing import List
 
+
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         rtn_list = []

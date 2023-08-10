@@ -44,6 +44,11 @@ class Solution:
         return nums[1:]
 
     def sortArray(self, nums: List[int]) -> List[int]:
+        """ 堆排序-有注释版
+
+        @param nums:
+        @return:
+        """
 
         def maxHepify(arr, i, end):  # 大顶堆
             j = 2 * i  # j为i的左子节点【建堆时下标1表示堆顶】

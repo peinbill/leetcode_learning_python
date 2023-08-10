@@ -29,6 +29,7 @@ class Solution:
             pre = pre.next
 
         cur = pre.next
+        # 不画图非常难理解
         for _ in range(right - left):
             next = cur.next
             cur.next = next.next

@@ -9,6 +9,7 @@
 """
 from typing import List
 
+
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         """ 方法一：暴力破解法，但是会超时

@@ -37,7 +37,8 @@ class Solution:
             # 更新答案
             self.maxSum = max(self.maxSum, priceNewpath)
 
-            # 返回节点的最大贡献值
+            # 返回节点的最大贡献值-这一点优点难理解，还是画个图就好
+            # 因为作为返回的路径，它是不能左右子节点都加起来的
             return node.val + max(leftGain, rightGain)
 
         maxGain(root)
