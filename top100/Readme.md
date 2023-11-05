@@ -29,4 +29,24 @@ Solution19：方法一：哑节点+计算长度；方法二：需要画图，双
 
 Solution20: 栈的idea
 
-Solution
+Solution21: 递归做法
+
+Solution22：从dfs进行着手
+
+Solution23：Solution21的进化，或者使用堆方式进行
+
+Solution26：其实就是一个双指针的应用，代码很简单，但idea确实有点难想
+
+Solution28：就是传统的字符串匹配
+
+Solution29：过于数学，pass
+
+Solution33：二分查找很有意思的一题，先找到分界点，再两边进行二分查找
+
+Solution34：基于二分查找的应用
+
+Solution36：直接使用暴力破解法，难点在于九宫格的分解
+
+Solution38：这题估计是出给嘻哈程序员的，题目都非常难读懂
+
+Solution41：基于原地hash方法
