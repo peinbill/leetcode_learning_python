@@ -17,7 +17,7 @@ Solution8：基于状态机的方法进行求解
 
 Solution10：难度极大，pass
 
-Solution11：双指针方法，比较难想出来，但比较容易李姐
+Solution11：双指针方法，比较难想出来，但比较容易理解
 
 Solution13：排序+双指针，第一次非常难想出来
 
@@ -50,3 +50,15 @@ Solution36：直接使用暴力破解法，难点在于九宫格的分解
 Solution38：这题估计是出给嘻哈程序员的，题目都非常难读懂
 
 Solution41：基于原地hash方法
+
+Solution42：接雨水问题，一秒单调栈（需要画图进行说明）
+
+Solution44：基于动态规划
+
+Solution46：经典的回溯问题
+
+Solution48：用翻转代替原地旋转
+
+Solution49: 最难的在于理解和转化问题，实际上用到的算法并不难
+
+Solution50：递归+快速幂
