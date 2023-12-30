@@ -62,3 +62,9 @@ Solution48：用翻转代替原地旋转
 Solution49: 最难的在于理解和转化问题，实际上用到的算法并不难
 
 Solution50：递归+快速幂
+
+Solution53：基于动态规划
+
+Solution54：按层模拟，其实就是循环迭代
+
+Solution55：基于贪心算法
