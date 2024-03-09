@@ -7,7 +7,7 @@
 # @Description : 根据滑动窗格进行求解即可
 
 from collections import Counter
-
+import collections
 class Solution:
 
     def minWindow(self, s: str, t: str) -> str:
