@@ -45,6 +45,7 @@ class Solution:
         for i in range(1, size):
             while heights[i] < heights[stack[-1]]:
                 cur_height = heights[stack.pop()]
+                # 除了右边要比当前严格小，其实还蕴含了一个条件，那就是左边也要比当前高度严格小。
                 cur_width = i - stack[-1] - 1
                 res = max(res, cur_height * cur_width)
             stack.append(i)
