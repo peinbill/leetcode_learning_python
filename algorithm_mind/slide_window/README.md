@@ -60,7 +60,6 @@ def slidingWindow(s: str):
         
         # 进行窗口内数据的一系列更新
         # ...
-        
         # 判断左侧窗口是否要收缩
         while left < right and window needs shrink:
             # d 是将移出窗口的字符
