@@ -12,4 +12,12 @@ Solution6: 考验一些token的处理方法
 Solution7: 用栈的思想进行翻转
 Solution8: 没啥意义其实
 Solution9: 递归的用法
-
+Solution10: 很有意思的动态规划
+Solution11: 双指针，本质上是一种贪心算法
+Solution12：罗马灭亡不是没原因的
+Solution13：同上，放过自己
+Solution14: 题目没读懂，但转化为二分查找还挺容易
+Solution15: 从两数之和进行衍变
+Solution16: Solution15的变体
+Solution17: 子集任务优先考虑回溯法
+Solution18: 在3sum的基础上再进一步
