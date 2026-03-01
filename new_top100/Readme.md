@@ -21,3 +21,11 @@ Solution15: 从两数之和进行衍变
 Solution16: Solution15的变体
 Solution17: 子集任务优先考虑回溯法
 Solution18: 在3sum的基础上再进一步
+Solution19: 哑节点+快慢指针的应用
+Solution20: 栈的应用
+Solution21: 递归和链表的应用
+Solution22: 回溯法,可以与20题进行联动，但有更好的解题思路
+https://leetcode.cn/problems/generate-parentheses/solutions/597236/sui-ran-bu-shi-zui-xiu-de-dan-zhi-shao-n-0yt3/
+
+
+
