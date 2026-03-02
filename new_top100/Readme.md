@@ -26,6 +26,7 @@ Solution20: 栈的应用
 Solution21: 递归和链表的应用
 Solution22: 回溯法,可以与20题进行联动，但有更好的解题思路
 https://leetcode.cn/problems/generate-parentheses/solutions/597236/sui-ran-bu-shi-zui-xiu-de-dan-zhi-shao-n-0yt3/
-
+Solution23: 基于两个链表排序优化而来
+Solution24：链表的递归方法
 
 
