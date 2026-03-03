@@ -28,5 +28,10 @@ Solution22: 回溯法,可以与20题进行联动，但有更好的解题思路
 https://leetcode.cn/problems/generate-parentheses/solutions/597236/sui-ran-bu-shi-zui-xiu-de-dan-zhi-shao-n-0yt3/
 Solution23: 基于两个链表排序优化而来
 Solution24：链表的递归方法
+Solution25：链表的应用，虽说是hard题，但更多是medium
+Solution26：快慢指针的应用
+Solution27：快慢指针的应用
+Solution28：可以暴力破解，也可以KMP（很难）
+Solution29：位运算，先忽略
 
 
