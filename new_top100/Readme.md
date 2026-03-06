@@ -33,5 +33,8 @@ Solution26：快慢指针的应用
 Solution27：快慢指针的应用
 Solution28：可以暴力破解，也可以KMP（很难）
 Solution29：位运算，先忽略
-
+Solution31: 双指针
+核心在于画图总结规律https://leetcode.cn/problems/next-permutation/?source=vscode
+Solution32: 动态规划或者栈，看到括号应该第一时间想到栈的方法
+https://leetcode.cn/problems/longest-valid-parentheses/solutions/3833/zui-chang-you-xiao-gua-hao-by-powcai/?source=vscode
 
