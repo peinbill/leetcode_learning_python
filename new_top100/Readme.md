@@ -37,4 +37,8 @@ Solution31: 双指针
 核心在于画图总结规律https://leetcode.cn/problems/next-permutation/?source=vscode
 Solution32: 动态规划或者栈，看到括号应该第一时间想到栈的方法
 https://leetcode.cn/problems/longest-valid-parentheses/solutions/3833/zui-chang-you-xiao-gua-hao-by-powcai/?source=vscode
+Solution33: 部份有序, 二分查找
+Solution34: 二分查找
+Solution35: 二分查找
+Solution36: 基于数组和hash
 
