@@ -41,4 +41,7 @@ Solution33: 部份有序, 二分查找
 Solution34: 二分查找
 Solution35: 二分查找
 Solution36: 基于数组和hash
-
+Solution37： 基于回溯方法，有点难（毕竟hard题目）
+Solution38： 基于指针遍历的方式
+Solution39: 回溯法的应用
+Solution40: 回溯法的应用

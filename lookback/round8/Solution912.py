@@ -8,7 +8,6 @@
 from random import randint
 from typing import List
 
-from duckdb.experimental.spark.sql.functions import right
 
 
 class Solution:
