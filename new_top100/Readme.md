@@ -45,3 +45,8 @@ Solution37： 基于回溯方法，有点难（毕竟hard题目）
 Solution38： 基于指针遍历的方式
 Solution39: 回溯法的应用
 Solution40: 回溯法的应用
+Solution41: 1）哈希表。2）原地置换
+Solution42：单调栈（死记）
+Solution415：大数相加（43题的前置）
+Solution43：大数相乘法（在大数相加的基础上）
+Solution44：跟10题基本思路一样
