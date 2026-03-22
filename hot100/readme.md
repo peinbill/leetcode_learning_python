@@ -22,3 +22,37 @@ Solution121： 买卖股票1：动态规划
 Solution53: 最大字数和：基于动态规划
 Solution76：编辑距离：基于动态规划
 Solution206: 链表翻转，链表应用（画图）或者递归
+Solution160: 相交链表：1）哈希表。2）双指针（得画图）
+Solution236：二叉树的最近公共祖先。基于递归
+Solution234: 回文链表：双指针法
+Solution739: 每日温度，基于单调栈
+Solution226: 翻转二叉树，基于递归的方法
+Solution221： 最大正方形，基于动态规划
+Solution208： 实现Trie数，字典+token
+Solution207: 课程表 拓扑排序 dfs
+Solution198: 打家劫舍 基于动态规划
+Solution169: 多数元素。基于counter（哈希表）
+Solution238: 除了自身以外数组的乘积 前缀和
+Solution155：最小栈，使用栈
+
+----
+Solution152
+Solution142
+Solution141
+Solution139
+Solution136
+Solution647
+Solution124
+Solution322
+Solution494
+Solution461
+Solution448
+Solution438
+Solution437
+Solution416
+
+
+
+
+
+
