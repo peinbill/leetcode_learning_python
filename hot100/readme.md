@@ -34,13 +34,11 @@ Solution198: 打家劫舍 基于动态规划
 Solution169: 多数元素。基于counter（哈希表）
 Solution238: 除了自身以外数组的乘积 前缀和
 Solution155：最小栈，使用栈
-
-----
-Solution152
-Solution142
-Solution141
-Solution139
-Solution136
+Solution152: 乘积最大子数组：基于贪心算法的动态规划
+Solution142: 环形链表 II 转圈
+Solution141：环形链表 快慢指针
+Solution139：单词拆分：动态规划
+Solution136: 只出现一次的数字，异或运算
 Solution647
 Solution124
 Solution322
