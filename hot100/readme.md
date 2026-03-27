@@ -39,10 +39,10 @@ Solution142: 环形链表 II 转圈
 Solution141：环形链表 快慢指针
 Solution139：单词拆分：动态规划
 Solution136: 只出现一次的数字，异或运算
-Solution647
-Solution124
-Solution322
-Solution494
+Solution647：回文子串：中心扩展法
+Solution124: 二叉树中的最大路径和，基于递归
+Solution322：零钱兑换，背包问题的解法都是物品在外
+Solution494：目标和，难度在于转化成0-1背包问题
 Solution461
 Solution448
 Solution438
