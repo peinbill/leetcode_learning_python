@@ -43,8 +43,8 @@ Solution647：回文子串：中心扩展法
 Solution124: 二叉树中的最大路径和，基于递归
 Solution322：零钱兑换，背包问题的解法都是物品在外
 Solution494：目标和，难度在于转化成0-1背包问题
-Solution461
-Solution448
+Solution461：汉明距离：异或计算
+Solution448：找到所有数组中消失的数字：1）死背吧，取负数
 Solution438
 Solution437
 Solution416
