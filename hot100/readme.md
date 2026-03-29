@@ -45,12 +45,21 @@ Solution322：零钱兑换，背包问题的解法都是物品在外
 Solution494：目标和，难度在于转化成0-1背包问题
 Solution461：汉明距离：异或计算
 Solution448：找到所有数组中消失的数字：1）死背吧，取负数
-Solution438
-Solution437
-Solution416
-
-
-
-
-
-
+Solution438：找到字符串中所有字母异位词：基于滑动窗格的方法
+Solution437： 路径综合3 基于dfs和递归
+Solution416：分割等和子集，转化为0-1背包问题（动态规划）
+Solution406: 根据身高重建队列，转化为排序+插入
+Solution399:查并集，放过自己-pass
+Solution394: 字符串解码，栈的应用
+Solution347: 前K个高频元素，基于桶排序
+Solution338: 比特位计数，暴力破解和动态规划
+Solution337: 打家劫舍3，基于dfs
+Solution312: 区间动态规划，放过自己-pass
+Solution309: 动态规划（3种状态），放过自己-pass
+Solution301: 放过自己-pass
+Solution300: 最长递增子序列，动态规划
+Solution297：放过自己-pass
+Solution287
+Solution283
+Solution279
+Solution253
