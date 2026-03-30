@@ -15,7 +15,7 @@ Solution200: 岛屿数量: 基于dfs
 Solution20: 有效的括号：基于栈
 Solution21： 合并两个有序链表，基于递归
 Solution56： 合并两个区间，基于双指针
-Solution239: 滑动窗格的最大值：基于单调栈
+Solution239: 滑动窗格的最大值：基于单调隊列
 Solution22: 括号生成，基于dfs
 Solution283: 移动零，基于双指针
 Solution121： 买卖股票1：动态规划
@@ -59,7 +59,13 @@ Solution309: 动态规划（3种状态），放过自己-pass
 Solution301: 放过自己-pass
 Solution300: 最长递增子序列，动态规划
 Solution297：放过自己-pass
-Solution287
-Solution283
-Solution279
-Solution253
+Solution287: 寻找重复数，基于环
+Solution279： 完全平方数，基于动态规划
+Solution253：会议室2，基于双指针
+Solution240: 搜索二維矩陣，二分查找
+Solution48：旋轉矩陣，先水平翻转，再对角线翻转
+Solution39: 组合总和，基于回溯方法
+Solution543: 二叉树的直径，基于dfs和二叉树
+Solution34: 在排序数组中查找元素的第一个和最后一个位置,基于二分查找
+Solution33: 搜索旋转排序数组，基于二分查找
+Solution32：有效最长括号，基于动态规划
