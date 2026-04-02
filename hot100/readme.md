@@ -75,9 +75,17 @@ Solution23：合并k个升序列表，两两合并
 Solution19：删除链表的倒数第N个结点，链表+哑节点应用
 Solution17: 电话号码的字母组合，基于回溯
 Solution10：正则表达式匹配，基于动态规划
-Solution04：
-Solution79
-Solution114
-Solution621
+Solution04：寻找两个正序数组的中位数，基于二分查找
+Solution79: 单词搜索，基于回溯
+Solution114: 二叉树展开为链表，基于dfs
+Solution621：任何调度器，基于贪心算法
 Solution617: 合并二叉树，基于递归
 Solution105: 从前序与中序遍历序列构造二叉树，基于递归
+Solution104: 二叉树的最大深度，基于递归
+Solution102: 二叉树的层序遍历，基于队列
+Solution101: 对称二叉树，基于递归
+Solution98：
+Solution96：
+Solution94：二叉树的中序遍历，基于递归
+Solution85：
+Solution84：
