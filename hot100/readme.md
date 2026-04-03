@@ -20,7 +20,7 @@ Solution22: 括号生成，基于dfs
 Solution283: 移动零，基于双指针
 Solution121： 买卖股票1：动态规划
 Solution53: 最大字数和：基于动态规划
-Solution76：编辑距离：基于动态规划
+Solution72：编辑距离：基于动态规划
 Solution206: 链表翻转，链表应用（画图）或者递归
 Solution160: 相交链表：1）哈希表。2）双指针（得画图）
 Solution236：二叉树的最近公共祖先。基于递归
@@ -84,8 +84,15 @@ Solution105: 从前序与中序遍历序列构造二叉树，基于递归
 Solution104: 二叉树的最大深度，基于递归
 Solution102: 二叉树的层序遍历，基于队列
 Solution101: 对称二叉树，基于递归
-Solution98：
-Solution96：
+Solution98：验证二叉搜索树，基于递归
+Solution96：不同的二叉树搜索树，动态规划
 Solution94：二叉树的中序遍历，基于递归
-Solution85：
-Solution84：
+Solution85：难度过大，pass
+Solution84：柱状图中最大的矩形，基于单调栈
+Solution78: 子集，基于回溯
+Solution76:最小覆盖子串，基于滑动窗格
+Solution75: 颜色分类，三路指针，类似快排
+Solution581:
+Solution64: 最小路径和，基于动态规划
+Solution62: 不同路径，基于动态规划
+Solution55：跳跃游戏，基于贪心算法
