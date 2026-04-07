@@ -92,7 +92,8 @@ Solution84：柱状图中最大的矩形，基于单调栈
 Solution78: 子集，基于回溯
 Solution76:最小覆盖子串，基于滑动窗格
 Solution75: 颜色分类，三路指针，类似快排
-Solution581:
+Solution581: 最短无序连续子数组，基于双指针
 Solution64: 最小路径和，基于动态规划
 Solution62: 不同路径，基于动态规划
 Solution55：跳跃游戏，基于贪心算法
+Solution46: 全排列，基于回溯

@@ -5,33 +5,19 @@
 # @File        : Solution75.py
 # @Software    : PyCharm
 # @Description :
-from collections import Counter
+from typing import List
 class Solution:
-
-    def minWindow(self, s: str, t: str) -> str:
-        if len(t) > len(s):
-            return ''
-        cnt = Counter(t)
-        need = len(t)
-        n = len(s)
-        start,end = 0,-1
-        min_len = n+1
-        left,right = 0,0
-
-        for right in range(n):
-            ch = s[right]
-            if ch in cnt:
-                if cnt[ch] >0:
-                    need -=1
-                cnt[ch] -= 1
-            while need == 0:
-                if right-left+1 < min_len:
-                    min_len = right-left+1
-                    start,end = left,right
-                ch = s[left]
-                if ch in cnt:
-                    if cnt[ch] >= 0:
-                        need +=1
-                    cnt[ch] += 1
-                left+=1
-        return s[start:end+1]
+    def sortColors(self, nums: List[int]) -> None:
+        # 分别指向0，1，2区域
+        low, mid, high = 0, 0, len(nums) - 1
+        # mid是活动指针
+        while mid <= high:
+            if nums[mid] == 0:  # 说明要交换到0区
+                nums[low], nums[mid] = nums[mid], nums[low]
+                low += 1
+                mid += 1
+            elif nums[mid] == 1:  # 正好
+                mid += 1
+            else:  # 否则交换到2区
+                nums[mid], nums[high] = nums[high], nums[mid]
+                high -= 1
