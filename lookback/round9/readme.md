@@ -33,11 +33,11 @@ Solution509: 直接根据递归思想即可
 
 
 - 滑动窗格
-Solution76:
+Solution76: 直接根据模板即可，核心还是counter和need
 
 
 - 二叉搜索树
 Solution701: 按照此特性写
 
 - 回溯法
-Solution78
+Solution78：掌握好回溯法的公式
