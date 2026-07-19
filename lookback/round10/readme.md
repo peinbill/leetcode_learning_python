@@ -1,155 +1,116 @@
-根据top100 按照标签进行刷题，每种题型刷3题
+根据 https://github.com/dashidhy/algorithm-pattern-python 进行刷题
+每种类型候选抽取1题，用于快速更新知识
 
-AI总结的标签：
-```text
-# LeetCode Hot100 按解法归类
-动态规划:
-Solution05：最长回文子串
-Solution70：爬楼梯
-Solution121：买卖股票1
-Solution53：最大子数组和
-Solution72：编辑距离
-Solution221：最大正方形
-Solution198：打家劫舍
-Solution152：乘积最大子数组
-Solution139：单词拆分
-Solution322：零钱兑换
-Solution494：目标和
-Solution416：分割等和子集
-Solution338：比特位计数
-Solution300：最长递增子序列
-Solution279：完全平方数
-Solution32：有效最长括号
-Solution10：正则表达式匹配
-Solution96：不同的二叉搜索树
-Solution64：最小路径和
-Solution62：不同路径
-Solution309：最佳买卖股票时机含冷冻期
-Solution312：戳气球
+## 数据结构篇
+- 二叉树
 
-双指针:
-Solution11：盛水最多的容器
-Solution15：三数之和
-Solution283：移动零
-Solution160：相交链表
-Solution234：回文链表
-Solution56：合并两个区间
-Solution253：会议室2
-Solution31：下一个排列
-Solution581：最短无序连续子数组
-Solution75：颜色分类
-Solution141：环形链表
-Solution142：环形链表 II
+Solution104: 基于二叉树的特性使用递归
 
-滑动窗口:
-Solution03：无重复字符的最长子串
-Solution239：滑动窗口的最大值
-Solution438：找到字符串中所有字母异位词
-Solution76：最小覆盖子串
+- 链表
 
-栈 & 单调栈:
-Solution42：接雨水
-Solution20：有效的括号
-Solution739：每日温度
-Solution155：最小栈
-Solution84：柱状图中最大的矩形
-Solution394：字符串解码
+Solution206：基于链表，记得画图
 
-哈希表 / 字典:
-Solution01：两数之和
-Solution128：最长连续序列
-Solution560：和为k的子数组
-Solution169：多数元素
-Solution49：字母异位词分组
-Solution146：LRU缓存
+- 栈和队列
 
-链表操作:
-Solution02：两数相加
-Solution21：合并两个有序链表
-Solution206：反转链表
-Solution19：删除链表的倒数第N个结点
-Solution23：合并K个升序链表
+Solution102: 基于队列的应用
 
-DFS 深度优先搜索:
-Solution200：岛屿数量
-Solution22：括号生成
-Solution236：二叉树的最近公共祖先
-Solution437：路径总和 III
-Solution337：打家劫舍 III
-Solution543：二叉树的直径
-Solution538：把二叉搜索树转换为累加树
-Solution114：二叉树展开为链表
-Solution207：课程表
 
-回溯算法:
-Solution39：组合总和
-Solution17：电话号码的字母组合
-Solution46：全排列
-Solution78：子集
-Solution79：单词搜索
+## 基础算法篇
+- 二分搜索
+Solution278: 基于二分查找模板3
+```python
+def binarySearch(nums, target):
+    """
+    :type nums: List[int]
+    :type target: int
+    :rtype: int
+    """
+    if len(nums) == 0:
+        return -1
 
-二叉树递归:
-Solution226：翻转二叉树
-Solution124：二叉树中的最大路径和
-Solution617：合并二叉树
-Solution105：从前序与中序遍历序列构造二叉树
-Solution104：二叉树的最大深度
-Solution101：对称二叉树
-Solution98：验证二叉搜索树
-Solution94：二叉树的中序遍历
+    left, right = 0, len(nums) - 1
+    while left + 1 < right:
+        mid = (left + right) // 2
+        if nums[mid] == target:
+            return mid
+        elif nums[mid] < target:
+            left = mid
+        else:
+            right = mid
 
-二分查找:
-Solution240：搜索二维矩阵
-Solution34：在排序数组中查找元素的第一个和最后一个位置
-Solution33：搜索旋转排序数组
-Solution04：寻找两个正序数组的中位数
-
-贪心算法:
-Solution55：跳跃游戏
-Solution621：任务调度器
-
-前缀和:
-Solution560：和为k的子数组
-Solution238：除了自身以外数组的乘积
-
-位运算 / 异或:
-Solution136：只出现一次的数字
-Solution461：汉明距离
-
-排序 / 堆 / 快排 / 桶排序:
-Solution215：数组中的第K个最大元素
-Solution347：前K个高频元素
-Solution406：根据身高重建队列
-
-中心扩展法:
-Solution05：最长回文子串
-Solution647：回文子串
-
-队列 / 层序遍历:
-Solution102：二叉树的层序遍历
-Solution239：滑动窗口的最大值
-
-拓扑排序:
-Solution207：课程表
-
-Trie 前缀树:
-Solution208：实现Trie
-
-并查集:
-Solution399：除法求值
-
-环形思路:
-Solution287：寻找重复数
-
-矩阵操作:
-Solution48：旋转矩阵
-
-其他（Pass/跳过）:
-Solution301：删除无效的括号
-Solution297：二叉树的序列化与反序列化
-Solution85：最大矩形
+    # Post-processing:
+    # End Condition: left + 1 == right
+    if nums[left] == target: return left
+    if nums[right] == target: return right
+    return -1
 ```
 
-再使用AI进行随机抽取数量
+
+- 排序算法
+（快排、归并、堆排序）
+Solution912：快排
+
+直接记住就行
+
+- 动态规划
+Solution322：需要记住，背包问题和零钱问题都是物品放在外面
+
+## 算法思维篇
+- 递归思维
+Solution509: 直接根据递归思想即可
 
 
+- 滑动窗格
+Solution76: 直接根据模板即可，核心还是counter和need
+python 版本
+```python
+def slidingWindow(s: str):
+    # 用合适的数据结构记录窗口中的数据
+    window = {}
+    
+    left = 0
+    right = 0
+    
+    while right < len(s):
+        # c 是将移入窗口的字符
+        c = s[right]
+        if c not in window:
+            window[c] = 1
+        else:
+            window[c] += 1
+            
+        # 增大窗口
+        right += 1
+        
+        # 进行窗口内数据的一系列更新
+        # ...
+        # 判断左侧窗口是否要收缩
+        while left < right and window needs shrink:
+            # d 是将移出窗口的字符
+            d = s[left]
+            
+            # 缩小窗口
+            left += 1
+            
+            # 进行窗口内数据的一系列更新
+            # ...
+```
+
+- 二叉搜索树
+Solution701: 按照此特性写
+
+- 回溯法
+Solution78：掌握好回溯法的公式
+```
+result = []
+def backtrack(路径, 选择列表):
+    if 满足结束条件:
+        result.add(路径)
+        return
+    
+    for 选择 in 选择列表:
+        做选择
+        backtrack(路径, 选择列表)
+        撤销选择
+
+```
